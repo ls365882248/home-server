@@ -1,0 +1,20 @@
+{
+  "development": {
+    "username": "root",
+    "database": "home-server-test",
+    "host": "139.196.229.246",
+    "password": "123456",
+    "dialect": "mysql",
+    "port": "3306",
+    "operatorsAliases": false
+  },
+  "test": {
+    "username": "root",
+    "password": "123456",
+    "database": "home-server-test",
+    "host": "139.196.229.246",
+    "dialect": "mysql",
+    "port": "3306",
+    "operatorsAliases": false
+  }
+}
