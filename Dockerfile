@@ -6,7 +6,6 @@ RUN npm i -g yarn
 ADD package.json /app/package.json
 RUN yarn
 ADD . /app
-
+RUN yarn ci
 EXPOSE 7001
-
 CMD ["yarn", "start"]
