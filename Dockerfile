@@ -8,4 +8,4 @@ RUN yarn
 ADD . /app
 RUN yarn ci
 EXPOSE 7001
-CMD ["yarn", "start"]
+CMD ["yarn", "docker-start"]

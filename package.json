@@ -10,6 +10,7 @@
   "scripts": {
     "start": "egg-scripts start --daemon --title=egg-server-home-server --port=7001",
     "stop": "egg-scripts stop --title=egg-server-home-server",
+    "docker-start": "egg-scripts start",
     "dev": "egg-bin dev --port=7001",
     "debug": "egg-bin debug",
     "test-local": "egg-bin test",
