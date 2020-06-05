@@ -1,0 +1,7 @@
+version: "3"
+services:
+  home:
+    ports:
+      - "7001:7001"
+    build: ./build
+    restart: always
