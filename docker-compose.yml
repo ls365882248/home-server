@@ -3,5 +3,5 @@ services:
   home:
     ports:
       - "7001:7001"
-    build: ./build
+    build: .
     restart: always
